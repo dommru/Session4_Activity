@@ -1,0 +1,66 @@
+/* headers */
+header {
+    font-family: Flame, sans-serif;;
+    color: goldenrod; 
+    text-align: left; 
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    padding: 20px; 
+    background-color: #1C3A69; 
+    width: auto;
+    height: 50px;
+    position: relative;
+    box-shadow: 15px 15px 10px #800000;;
+    border-color: #000;
+    outline: 2px black;
+    margin-bottom: 50px;
+    border-radius: 5%;
+  }
+header img {
+    width: 150px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+/* content */
+.paragraphCon {
+    padding-left: 40px;
+    padding-right: 40px;
+    hyphens: auto;
+}
+
+  /* 1 */
+img {
+    height: 250px;
+    width: 500px;
+  }
+  /* 2 */
+  ul {
+    margin: 50px;
+  }
+  
+  
+/* 3 */
+  #introduction {
+    background-image: url("https://th.bing.com/th/id/R.ce068c6f5684d47b46ce2dd5b77dc3c5?rik=SSHXrenAYH70AA&riu=http%3a%2f%2fownchef.files.wordpress.com%2f2011%2f12%2fwhopper-good-image.jpg&ehk=N7ry2JW5xnj6vxNi4a%2bL4bou0qUO04WCvBUz02EU9L0%3d&risl=&pid=ImgRaw&r=0");
+    color: white;
+    height: 600px;
+    background-position: 100%;
+    background-size: cover;
+  }
+  
+  /* 4 */
+  #main-content {
+    border-color: gold;
+    border-width: 10px;
+    margin-bottom: 300px;
+  }
+  
+  .quotetext {
+    color: var(--theme-body-text-color--hover);
+    font-family: rubik,helvetica,arial,sans-serif !important;
+    font-size: 1em !important;
+    font-style: italic !important;
+    padding: 0 1px 0 10px;
+    grid-column: 2;
+    grid-row: 2;
+  }
